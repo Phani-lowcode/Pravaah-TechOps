@@ -1,4 +1,4 @@
-package com.lowcodelabs.techops.repositeries;
+package com.lowcodelabs.techops.repositories;
 
 import com.lowcodelabs.techops.models.Country;
 import org.springframework.data.jpa.repository.JpaRepository;

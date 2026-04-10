@@ -1,7 +1,8 @@
 package com.lowcodelabs.techops.services;
 
 import com.lowcodelabs.techops.models.Country;
-import com.lowcodelabs.techops.repositeries.CountryRepository;
+import com.lowcodelabs.techops.repositories.CountryRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
