@@ -2,6 +2,7 @@ package com.lowcodelabs.techops.models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "category")
@@ -18,6 +19,7 @@ public class Category {
     @Column(name = "color")
     private String color;
 
+    @NotNull(message = "Active status is required")
     @Column(name = "is_active")
     private Boolean isActive = true;
 
