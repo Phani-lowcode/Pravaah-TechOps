@@ -3,7 +3,8 @@ spring.application.name=techops
 # Database
 spring.datasource.url=jdbc:postgresql://localhost:5432/techops_db
 spring.datasource.username=postgres
-spring.datasource.password=Preetam@890
+spring.datasource.password=your_password_here
+
 # JPA
 spring.jpa.hibernate.ddl-auto=create
 spring.jpa.show-sql=true
